@@ -1,3 +1,4 @@
+package Tugas_01;
 public class Buku {
     private String judul;
     private String kategori;
