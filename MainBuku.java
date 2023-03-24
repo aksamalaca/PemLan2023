@@ -1,4 +1,3 @@
-package Tugas_02;
 public class MainBuku {
     public static void main(String[] args) {
         Buku teknologi1 = new Buku("Perkembangan Teknologi di Era Globalisasi", "Teknologi", "Anasita", "Teknologi mengalami perkembangan pesat, terutama dalam era globalisasi yang semakin terhubung secara digital", 2011);
