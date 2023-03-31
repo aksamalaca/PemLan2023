@@ -14,7 +14,7 @@ public class MainHero {
         Hero hero1 = new Hero();
         System.out.print("Nama Hero          : ");
         hero1.setName(input.nextLine());
-        System.out.print("Health Point Hero  : ");
+        System.out.print("Hitpoint Hero  : ");
         hero1.setHp(input.nextDouble());
         System.out.print("Attack Hero        : ");
         hero1.setAtk(input.nextDouble());
@@ -35,14 +35,14 @@ public class MainHero {
             System.out.println(hero1.getName() + " menyerang " + hero2.getName());
             System.out.println("");
             System.out.println(hero1.getName() + " menyerang sebesar " + hero1.getAtk());
-            System.out.println(hero2.getName() + " memiliki Health Point sebesar " + hero2.getHp() + " HP");
+            System.out.println(hero2.getName() + " memiliki hitpoint sebesar " + hero2.getHp() + " HP");
             hero2.setHp(hero2.getHp() - hero1.getAtk());
             System.out.println("");
 
             // Hero 2 menyerang Hero 1
             System.out.println(hero2.getName() + " menyerang " + hero1.getName());
             System.out.println(hero2.getName() + " menyerang sebesar " + hero2.getAtk());
-            System.out.println(hero1.getName() + " memiliki Health Point sebesar " + hero1.getHp() + " HP");
+            System.out.println(hero1.getName() + " memiliki hitpoint sebesar " + hero1.getHp() + " HP");
             hero1.setHp(hero1.getHp() - hero2.getAtk());
             System.out.println("");
 
