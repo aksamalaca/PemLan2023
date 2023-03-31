@@ -32,5 +32,6 @@ public class Hero {
         System.out.println("=======================================");
         System.out.println("Selamat Datang di Game Battle Sederhana");
         System.out.println("=======================================\n");
+        System.out.println();
     }
 }

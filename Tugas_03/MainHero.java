@@ -12,11 +12,11 @@ public class MainHero {
 
         // set up hero1
         Hero hero1 = new Hero();
-        System.out.print("Nama Hero      : ");
+        System.out.print("Nama Hero       : ");
         hero1.setName(input.nextLine());
-        System.out.print("Hitpoint Hero  : ");
+        System.out.print("Hitpoint Hero   : ");
         hero1.setHp(input.nextDouble());
-        System.out.print("Attack Hero    : ");
+        System.out.print("Attack Hero     : ");
         hero1.setAtk(input.nextDouble());
         input.nextLine();
 
