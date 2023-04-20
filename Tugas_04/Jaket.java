@@ -26,7 +26,7 @@ public class Jaket {
         Scanner input = new Scanner(System.in);
         System.out.println("\nDapatkan diskon tiap pembelian jaket sebanyak 100 biji");
         System.out.printf("| %-10s| %-12s| %-20s| \n", "Jenis", "Harga/biji", "Harga Diskon/biji");
-        System.out.println("-------------------------------------------------");
+        System.out.println("--------------------------------------------------");
         System.out.printf("| %-10s| %-12s| %-20s| \n", "Jaket A", "Rp100.000", "Rp95.000");
         System.out.printf("| %-10s| %-12s| %-20s| \n", "Jaket B", "Rp125.000", "Rp120.000");
         System.out.printf("| %-10s| %-12s| %-20s| \n", "Jaket C", "Rp175.000", "Rp160.000");
