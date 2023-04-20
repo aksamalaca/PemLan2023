@@ -45,7 +45,7 @@ public class Jaket {
         do {
             System.out.print("Masukkan jenis jaket yang akan Anda beli (A/B/C) : ");
             char tipeJaket = input.next().toUpperCase().charAt(0);
-            if (String.valueOf(tipeJaket).hashCode() > 26){
+            if (String.valueOf(tipeJaket).hashCode() > 67){
                 System.out.println("Jaket " + tipeJaket + " tidak tersedia.\n");
             } else {
                 System.out.print("Masukkan jumlah jaket " + tipeJaket + ": ");
