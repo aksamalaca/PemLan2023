@@ -5,9 +5,11 @@ public class KueJadi extends Kue{
         super(nama, harga);
         this.jumlah = jumlah;
     }
+
     public double getJumlah(){
         return jumlah;
     }
+    
     public double hitungHarga(){
         return this.jumlah * super.getHarga() * 2;
     }

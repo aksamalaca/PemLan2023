@@ -1,6 +1,7 @@
 import java.text.DecimalFormat;
 public class Main {
     public static void main(String[] args) {
+        
         Kue[] kue = new Kue[20];
         // kue pesanan
         kue[0] = new KuePesanan("Bikang Ambon", 400, 120);
