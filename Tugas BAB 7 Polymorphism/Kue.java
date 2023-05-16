@@ -7,15 +7,12 @@ public abstract class Kue {
         this.nama = nama;
         this.harga = harga;
     }
-
     public String getNama() {
         return nama;
     }
-
     public double getHarga() {
         return harga;
     }
-
     public abstract double hitungHarga();
 
     public String toString() {
